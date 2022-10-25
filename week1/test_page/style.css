@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(187, 190, 192);
+    overscroll-behavior: none;
+}
+header {
+    background-color: rgb(19, 57, 104);
+    height: 10vh;
+    color: aliceblue;
+    font-size: 3rem;
+    display: grid;
+    align-items: center;
+    justify-items: flex-start;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(29, 34, 35);
+    box-shadow: 4px rgb(118, 117, 117);
+}
+.cards {
+    background-color: rgb(19, 57, 104);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 0;
+    min-height: 78vh;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(29, 34, 35);
+    box-shadow: 4px rgb(118, 117, 117);
+}
+.card {
+    margin: 2rem;
+    padding-top: 2.5rem;
+    font-size: 2.5rem;
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px rgb(216, 211, 211);
+}
+#box1 {
+    margin-left: 700px;
+}
+#box3 {
+    margin-right: 700px;
+}
+footer {
+    background-color: rgb(19, 57, 104);
+    color: aliceblue;
+    font-size: 2rem;
+    height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid rgb(29, 34, 35);
+    box-shadow: 4px rgb(118, 117, 117);
+}
